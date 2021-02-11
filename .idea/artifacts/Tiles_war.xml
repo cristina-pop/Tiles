@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Tiles:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Tiles</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tiles.war">
+      <element id="artifact" artifact-name="Tiles:war exploded" />
+    </root>
+  </artifact>
+</component>
